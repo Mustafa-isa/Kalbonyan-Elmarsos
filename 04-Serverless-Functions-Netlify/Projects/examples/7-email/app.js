@@ -1,0 +1,9 @@
+const nameInput = document.querySelector('.name-input')
+const emailInput = document.querySelector('.email-input')
+const subjectInput = document.querySelector('.subject-input')
+const messageInput = document.querySelector('.message-input')
+const form = document.querySelector('.form')
+const btn = document.querySelector('.submit-btn')
+const alert = document.querySelector('.alert')
+const title = document.querySelector('.title')
+alert.style.display = 'none'
