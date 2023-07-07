@@ -1,0 +1,137 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar__logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.navbar__logo span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.navbar__links {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-100%);
+}
+
+.navbar__links.show {
+  transform: translateY(0%);
+}
+
+.navbar__links a {
+  padding: 10px;
+  font-size: 16px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.navbar__links a:hover {
+  background-color: #f2f2f2;
+}
+
+.navbar__links a:last-child {
+  margin-right: 0;
+}
+
+.navbar__links a svg {
+  margin-left: 5px;
+}
+
+.navbar__actions {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__actions a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #333333;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.navbar__actions a.btn-learn-more {
+  background-color: #ffffff;
+  color: #333333;
+  border: 2px solid #333333;
+}
+
+.navbar__menu {
+  display: none;
+  font-size: 24px;
+  color: #333333;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar__links {
+    padding: 20px;
+    transform: translateY(-100%);
+    background-color: #333333;
+  }
+
+  .navbar__links.show {
+    transform: translateY(0%);
+  }
+
+  .navbar__links a {
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+  }
+
+  .navbar__links a:hover {
+    background-color: #f2f2f2;
+    color: #333333;
+  }
+
+  .navbar__links a svg {
+    margin-left: auto;
+    margin-right: 0;
+    transform: rotate(90deg);
+    color: #ffffff;
+  }
+
+  .navbar__actions a {
+    background-color: #ffffff;
+    color: #333333;
+    border: 2px solid #333333;
+  }
+
+  .navbar__menu {
+    display: block;
+  }
+}

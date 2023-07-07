@@ -1,0 +1,79 @@
+.container_swipper_div{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+
+}
+.product_container_div_op{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 11px;
+  margin:10px;
+  padding: 10px;
+  border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+
+height: 450px;
+
+}
+
+.image_ddd{
+  width:240px;
+  margin: auto;
+  display: block;
+}
+.product_container_div_op .info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.product_container_div_op .name{
+color:#741906;
+text-transform: capitalize;
+
+}
+.description{
+  color: #666;
+  padding: 10px;
+}
+.product_container_div_op .bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.product_container_div_op .bottom .left p{
+     color: #741906;
+}
+.product_container_div_op .bottom .left_content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.product_container_div_op .bottom .right button{
+  padding: 3px 6px;
+  background-color: #741906;
+  color: #fff;
+}
+.product_container_div_op .bottom .right span{
+  padding: 4px;
+  background-color: #999;
+  color: #222;
+  display:block;
+}
+.product_container_div_op .bottom .right {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+.logo_div_section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 90vw;
+  margin: auto;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 50px;
+
+
+}
+.image_cluser_222{
+  width: 60px !important;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+@media(max-width:767px){
+  .image_cluser_222{
+    width: 50px;
+    }
+}

@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,700;1,900&family=Manrope:wght@200;300;400;600;700;800&family=Open+Sans:ital,wght@0,300;0,500;0,600;0,800;1,300;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto+Mono:ital,wght@0,200;0,600;1,200;1,300;1,400;1,500&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mainColor: rgba(99, 6, 6, 0.864);
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+.home_section{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets//images//Background.png");
+  background-size: cover;
+  background-position: left;
+  
+
+}
+.home_section header{
+  width:90%;
+position: fixed;
+top: 0;
+left: 5%;
+z-index: 1000;
+right:5%;
+transition: .3s ease;
+
+
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:#fff;
+  font-weight: 700;
+
+
+}
+.home_section header nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+}
+.home_section header nav ul{
+  display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+gap: 24px;
+}
+.home_section header nav ul li{
+  padding: 5px 13px;
+  transition: .3s;
+}
+.home_section header nav ul li:hover{
+  padding: 5px 13px;
+  background-color: var(--mainColor);
+  color: #fff;
+}
+.home_section header nav ul li.active{
+  padding: 5px 13px;
+  background-color: var(--mainColor);
+  color: #fff;
+}
+
+.home_section header nav  .center_nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+flex-direction: row;
+  color: #fff;
+
+}
+.home_section header nav .icon .icon_i{
+
+font-size: 30px;
+background-color: transparent;
+margin-left: 15px;
+margin-top: 9px;
+padding: 10px;
+border-radius: 3px;
+background-color: #fff;
+
+cursor: pointer;
+color: #254342;
+
+}
+.home_section .icon{
+  position: relative;
+
+}
+.home_section .icon .numOfPr{
+  position: absolute;
+  font-size: 12px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--mainColor);
+  top: 10%;
+  right: -10%;
+}
+.home_section .Toggle{
+  display: none;
+   visibility: hidden;
+   opacity: 0;
+   padding: 1px 7px;
+   background-color: #fff;
+   color: var(--mainColor);
+   cursor: pointer;
+   font-size: 20px;
+   border-radius: 20%;
+}
+.home_section .home_content{
+position: absolute;
+top: 15%;
+left: 40%;
+right: 10%;
+
+
+}
+.paths{
+  z-index: 1000;
+}
+.home_section .home_content h2{
+  font-family: 'Lora';
+font-style: normal;
+font-weight: 700;
+font-size:40px;
+line-height: 50px;
+text-align: right;
+
+color: #FFFFFF;
+}
+.home_section .home_content p{
+
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: right;
+
+color: #FFFFFF;
+}
+.home_section .home_content button{
+  background-color: transparent;
+  padding: 5px 15px;
+  border: 1px solid #fff;
+  outline: none;
+  transition: .3s;
+color: #fff;
+cursor: pointer;
+text-align: right;
+margin-left: auto;
+display: block;
+font-size: 20px;
+
+margin-top: 20px;
+
+}
+.home_section .home_content button:hover{
+  background-color: var(--mainColor);
+border: 0;
+
+
+}
+.home_section .home_content button img{
+  width: 10px;
+}
+@media(max-width:767px){
+  .home_section .paths{
+    position: fixed;
+    top: 6%;
+    left: 0;
+    width: 40%;
+background-color: black;
+height: 100vh;
+transition: .4s ease-in;
+z-index: 1000;
+
+
+transform: translateX(-100%);
+
+  }
+  .home_section .paths.show{
+  
+
+transform: translateX(0);
+
+  }
+  
+  .home_section .paths ul{
+display: flex;
+flex-direction: column;
+margin-top: 150px;
+z-index: 1000;
+
+
+  }
+  .home_section .paths ul li{
+    width: 100%;
+    text-align: center;
+    transition: .2s;
+    padding: 10px;
+    z-index: 1056;
+
+  }
+  .home_section .paths ul li:hover{
+  background-color: var(--mainColor);
+  
+  }   .home_section .paths ul li a{
+    color: #fff !important;
+  }
+  .home_section .Toggle{
+    display: block;
+     visibility: visible;
+     opacity: 1;
+  
+  }
+  .home_section header{
+background-color: #fff;
+color: #fff;
+width: 100%;
+left: 0;
+right: 0;
+z-index: 1000;
+  
+  }
+  .home_section header h1{
+    color: black;
+    font-family: cursive;
+    margin-left: 14px;
+
+  }
+  .home_section .icon .icon_i {
+    color: rgb(48, 3, 3);
+  }
+  .home_section .home_content{
+    left: 10%;
+  
+  }
+
+  .home_section .home_content p{
+  padding: 10px;
+  border-radius: 10px;
+
+  background-color: rgba(255, 255, 255, .3);
+  color: #333;
+  z-index: 1;
+  }
+}
+.navbar-scrolled{
+  width: 100%;
+
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 0;
+  padding: 10px;
+}
+.navbar-scrolled a,icon_i{
+  color:#333;
+
+
+
+}
+.card_div_{
+  position: fixed;
+  background-color: #222;
+  border-radius: 3px;
+  color: #fff;
+  top: 12%;
+  width: 250px;
+  right: 0;
+  z-index: 10000;
+  padding: 10px;
+  font-size: 12px;
+  min-height: 100vh;
+  text-align: center;
+  transform: translateY(-300%);
+
+transition: .4s ease;
+
+}
+.card_div_.showwwmm{
+  transform: translateY(0)
+  
+}
+.card_div_ .one_product{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+  background-color: #eee;
+  color: #222;
+  padding: 10px;
+
+}
+.card_div_ .one_product img{
+
+width: 80px;
+
+
+}
+
+.card_div_ .one_product .info .name{
+
+  color: #830720;
+}
+.card_div_ .one_product .container_btn{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  
+}
+
+.card_div_ .one_product .container_btn span{
+background-color: #555;
+color: #fff;
+display: block;
+padding: 2px 6px;
+}
+
+
+.fuckYou button{
+padding: 3px 7px;
+border: 0;
+outline: 0;
+color: #fff;
+background-color: #830720;
+}
+.fuckYou{
+  display: flex;
+  align-items: center;
+  
+
+}
+.bbbb{
+  all: unset;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+button{
+  cursor: pointer;
+}
+@media(max-width:767px){
+  .card_div{
+    width: 60%;
+    top: 5%;
+  } 
+}
+.deleteAll{
+padding: 10px;
+border-radius: 3px;
+color: #fff;
+background-color: #830720;
+border: 0;
+outline: 0;
+
+}

@@ -1,0 +1,47 @@
+.service_section{
+  margin-top: 60px;
+
+  width: 100%;
+height: auto;
+position: relative;
+background-image: url("../../assets/images/CTA\ BG.png");
+background-size: cover;
+  background-position: center;
+}
+.service_section .layer{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(125, 123, 123, 0.4);
+}
+.service_section .content{
+   width: 90%;
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   height: 450px;
+   align-items: center;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.service_section .content img{
+width: 200px;
+height: 260px;
+
+
+}
+@media(max-width:767px){
+  .service_section{
+  background-position: center;
+    
+  }
+  .service_section .content{
+    flex-direction: column;
+    height: auto;
+  }
+}
