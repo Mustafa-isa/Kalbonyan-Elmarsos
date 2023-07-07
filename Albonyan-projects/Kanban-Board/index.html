@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div id="save" style="width: 30%; text-align: center;">save</div>
+    <h1>Kanban Board </h1>
+    <div class="container">
+      <div class="container-item">
+        <div class="column">
+            <div class="column__title">not started</div>
+     <div class="column__item" draggable="true">
+      <p class="content content-notstarted" contenteditable="true"> boox value</p>
+       <div class="icon">
+            <i class="fa-solid fa-pen-to-square"></i>
+          
+            <i class="fa-solid fa-trash delete"></i>
+          
+         </div>
+         <div class="cloumn__item_shadow "></div>
+        </div>
+    
+     </div>
+     <button class="btn__add notstaretd">+ add</button>
+    </div>
+    <div class="container-item">
+      <div class="column">
+          <div class="column__title">in progress</div>
+   <div class="column__item" draggable="true">
+    <p class="content" contenteditable="true"> boox value</p>
+     <div class="icon">
+          <i class="fa-solid fa-pen-to-square"></i>
+        
+          <i class="fa-solid fa-trash delete"></i>
+        
+       </div>
+       <div class="cloumn__item_shadow "></div>
+      </div>
+  
+   </div>
+   <button class="btn__add progress ">+ add</button>
+  </div>
+  <div class="container-item">
+    <div class="column">
+        <div class="column__title">completed</div>
+ <div class="column__item" draggable="true">
+  <p class="content" contenteditable="true"> boox value</p>
+   <div class="icon">
+        <i class="fa-solid fa-pen-to-square"></i>
+      
+        <i class="fa-solid fa-trash delete"></i>
+      
+     </div>
+     <div class="cloumn__item_shadow "></div>
+    </div>
+
+ </div>
+ <button class="btn__add completed">+ add</button>
+</div>
+        </div>
+   
+  
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
