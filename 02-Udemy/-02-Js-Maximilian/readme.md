@@ -22,7 +22,7 @@
 ### Project Planner (S14)
 
 - [Project Code](./Projects/04-Project-Planner/)
-- [Live Demo]()
+- [Live Demo](https://64a9508190908373b5addfe1--startling-halva-9583de.netlify.app/)
 
 ### Posts (S19)
 
