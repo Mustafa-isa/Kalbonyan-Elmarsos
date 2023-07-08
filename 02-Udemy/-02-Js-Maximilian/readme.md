@@ -17,7 +17,7 @@
 ### Mini Shop (S10)
 
 - [Project Code](./Projects/03-Mini-Shop/)
-- [Live Demo]()
+- [Live Demo](https://64a953293571ea778a653068--thunderous-heliotrope-6e9422.netlify.app/)
 
 ### Project Planner (S14)
 
