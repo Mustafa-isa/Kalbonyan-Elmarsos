@@ -12,7 +12,7 @@
 ### Favorite Movies (S7)
 
 - [Project Code](./Projects/02-Favorite-Movies/)
-- [Live Demo]()
+- [Live Demo](https://64a951534dd25f762dc76fe4--visionary-gelato-0423e9.netlify.app/)
 
 ### Mini Shop (S10)
 
