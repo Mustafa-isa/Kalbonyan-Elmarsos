@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="progress.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h1>cutom video created by your own</h1>
+
+    <video
+      src="./Ramy Essam - UA07 _ Official Music Video رامى عصام - يا مجلس يابن الحرام(1).mp4"
+      id="video"
+      poster="./poster.png"
+    ></video>
+    <div class="controls">
+      <button class="btn" id="play">
+        <i class="fa-solid fa-play"></i>
+      </button>
+      <button class="btn" id="stop">
+        <i class="fa fa-stop fa-2x"></i>
+      </button>
+      <input
+        type="range"
+        id="progress"
+        class="progress"
+        min="0"
+        max="100"
+        step=".1"
+        value="0"
+      />
+      <span class="time" id="time"></span>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
