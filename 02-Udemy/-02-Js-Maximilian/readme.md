@@ -7,7 +7,7 @@
 ### Calculator (S6)
 
 - [Project Code](./Projects/01-Calculator/)
-- [Live Demo]()
+- [Live Demo](https://64a94fbacb993875b5f74655--beautiful-banoffee-565ddf.netlify.app/)
 
 ### Favorite Movies (S7)
 
