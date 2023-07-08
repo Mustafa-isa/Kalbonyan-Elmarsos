@@ -1,0 +1,192 @@
+
+
+
+california_symbols = {
+    'bird': 'California quail',
+    'animal': 'Grizzly bear',
+    'flower': 'California poppy',
+    'fruit': 'Avocado',
+}
+
+
+cities = [
+    'Tokyo', 
+    'Dakar', 
+    'Mumbai', 
+    'Buenos Aires',
+]
+
+# Nearest stars to Earth
+star1 = 'Sol'
+star2 = 'Alpha Centauri'
+star3 = 'Barnard'
+star4 = 'Wolf 359'
+
+# Highest peak on each tectonic plate
+African = 'Kilimanjaro'
+Antarctic = 'Vinson'
+Australian = 'Puncak Jaya'
+Eurasian = 'Everest'
+North_American = 'Denali'
+Pacific = 'Mauna Kea'
+South_American = 'Aconcagua'
+  chapter 2
+  spices = [
+    'salt',
+    'pepper',
+    'cumin',
+    'turmeric',
+]
+# This For Loop Iterate
+for spice in spices:
+    print(spice)
+print('No more boring omelettes!')
+
+print('Counting to 100 by fives:')
+i = 5
+while i <= 100:
+    print(i)
+    i += 5
+print('List complete!')
+
+fruits = [
+    'apples',
+    'bananas',
+    'dragon fruit',
+    'mangos',
+    'nectarines',
+    'pears',
+]
+print('Our fruit selection:')
+for fruit in fruits:
+    print(fruit)
+      chapter 3
+value = input('Enter a number: ')
+# Concatination
+print(value + ' is my favorite number!')
+print('When you multiply it by 10, this is what you get:')
+# conert to int
+value_int = int(value)
+print(value_int * 10)
+
+first_name = 'malala'
+last_name = 'yousafzai'
+note = 'award: Nobel Peace Prize'
+
+first_name_cap = first_name.capitalize()
+last_name_cap = last_name.capitalize()
+award_location = note.find('award: ') # True
+award_text = note[7:]
+
+print(first_name_cap)
+print(last_name_cap)
+print(award_location)
+print(award_text)
+
+import re
+
+five_digit_zip = '98101'
+nine_digit_zip = '98101-0003'
+phone_number = '234-567-8901'
+
+five_digit_expression = r'\d{5}'
+
+print(re.search(five_digit_expression, five_digit_zip))
+print(re.search(five_digit_expression, nine_digit_zip))
+print(re.search(five_digit_expression, phone_number))
+
+miles = input('Enter a distance in miles: ')
+# kilometers_value = miles_value * 1.609344
+  chapter 4
+infile = open('values.txt', 'rt')
+outfile = open('values-totaled.txt', 'wt')
+print('Processing input')
+sum = 0
+for line in infile:
+    sum += int(line)
+    print(line.rstrip(), file=outfile)
+print('\nTotal: ' + str(sum), file=outfile)
+outfile.close()
+print('Output complete')
+  chapter 5
+def check_temp(temp):
+    if  temp > 15:
+        print('Bring a jacket')
+    elif temp > 25 and temp <= 35:
+        print('Pack a jacket')
+    elif temp < 35:
+        print('Leave the jacket at home')
+############################################
+def plant_recommendation(care):
+    if care = 'low':
+        print('aloe')
+    elif care == 'medium':
+        print('pothos')
+    elif care == 'medium':
+        print('orchid')
+
+# Syntax error in the first line
+plant_rec('low')
+plant_recommendation('medium')
+plant_recommendation('high')
+
+##################################
+# Correction
+def plant_recommendation(care):
+    if care == 'low':
+        print('aloe')
+    elif care == 'medium':
+        print('pothos')
+    elif care == 'high':
+        print('orchid')
+
+plant_recommendation('low')
+plant_recommendation('medium')
+plant_recommendation('high')
+  chapter 5 flips = [
+    'heads',
+    'tails',
+    'tails',
+    'heads',
+    'tails',
+]
+
+print(flips.count('heads'))
+print(flips.pop()) # tails
+##########################################
+class Attendee:
+    'Common base class for all attendees'
+
+    def __init__(self, name, tickets):
+        self.name = name
+        self.tickets = tickets
+
+    def displayAttendee(self):
+        print('Name : {}, Tickets: {}'.format(self.name, self.tickets))
+
+    def addTicket(self):
+        self.tickets += 1
+        print('{} tickets increased to {}'.format(self.name, self.tickets))
+################################################
+class Attendee:
+    'Common base class for all attendees'
+
+    def __init__(self, name, tickets):
+        self.name = name
+        self.tickets = tickets
+
+    def displayAttendee(self):
+        print('Name : {}, Tickets: {}'.format(self.name, self.tickets))
+
+    def addTicket(self):
+        self.tickets += 1
+        print('{} tickets increased to {}'.format(self.name, self.tickets))
+
+attendee1 = Attendee('B. Giles', 2)
+attendee2 = Attendee('J. Ortega', 1)
+attendee1.displayAttendee()
+attendee2.displayAttendee()
+attendee2.addTicket()
+attendee2.addTicket()
+
+
