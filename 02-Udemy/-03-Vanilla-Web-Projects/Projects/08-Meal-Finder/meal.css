@@ -1,0 +1,149 @@
+*{
+    margin: o;
+    padding:0 ;
+    box-sizing: border-box;
+
+
+}
+body{
+
+background-color: #2D2013;
+color: #FFF;
+font-family:'Courier New', Courier, monospace;
+
+
+}
+.container{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+     
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+.flex{
+    display: flex;
+
+}
+input,button{
+    padding: 7px 10px ;
+
+    outline: none;
+    border:1px solid #FFF;
+
+}
+
+form input{
+
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+
+
+}
+form button{
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px;
+}
+.rondpmBtn{
+    margin-left: 4px;
+
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+button{
+    cursor: pointer;
+}
+#meals{
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(200px ,1fr));
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #cc6b0a;
+}
+.meal{
+    cursor: pointer;
+margin-left: 5px;
+    position: relative;
+
+}
+.meal:hover .info{
+    opacity: 1;
+}
+.info{
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease-in;
+    opacity: 0;
+
+
+}
+
+.meal h2{
+    font-size:17 px;
+
+   
+}
+/* start ingradient */
+.singl-meal{
+
+    margin-top: 40px;
+
+}
+.singl-meal h2{
+
+    margin-bottom: 0;
+
+}
+.singl-meal img{
+    height: 200px;
+    width: 70%;
+    margin: auto;
+
+}
+.meal-info h2{
+
+    width: 100%;
+    text-align: center;
+    border: 1px dashed #a35d17;
+    padding: 10px;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+li{
+    padding: 10px;
+    margin:6px;
+background-color: #fff;
+
+border-radius: 7px;
+
+color:#a35d17 ;
+
+}
