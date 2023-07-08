@@ -1,0 +1,164 @@
+chapter 1 
+print('heoo world)
+chapter2
+name = input("Hi, what's your name? ")
+# the same but here for the age
+age = int(input("How old are you? "))
+# check the age by using if 
+if (age < 13):
+    print("You're too young to register", name)
+else:
+    print("Feel free to join", name)    
+chapter 3
+# using Variables
+age = 36
+# print the age
+print(age)
+
+print(type(age))
+# email string variables
+
+email_address = "john.doe@me.com"
+# print an email
+print(email_address)
+# print the type of the email which print str
+print(type(email_address))
+
+cookies = 'Sugar'
+print(cookies)
+print(type(cookies))
+
+cookies = 1
+print(cookies)
+print(type(cookies))
+
+Cookies = 3
+print(Cookies)
+print(cookies)
+
+first_name = "Jeff"
+print(first_name)
+
+first_Name = "Sara"
+print(first_name)
+
+# To print a message Hi
+print("Hi!")
+name = input("What's your name? ")
+
+print("It's nice to meet you,", name)
+
+answer = input("Are you enjoying the course? ")
+
+if answer == "Yes":
+    print("That's good to hear!")
+else:
+    print("Oh no! That makes me sad!")
+chapter4
+print("Hi!")
+
+name = input("What's your name? ")
+print("It's nice to meet you,", name)
+
+answer = input("Are you enjoying the course? ")
+
+if answer == "Yes":
+    print("That's good to hear!")
+
+print("Final statement")
+
+plant = "Cacti"
+
+if plant == "Cacti":
+    print(plant, "don't need a lot of water")
+else:
+    print(plant, "love water")
+
+print("Thanks!")
+
+
+if plant == "Cacti":
+    print(plant, "don't need a lot of water")
+else:
+    print(plant, "love water")
+
+print("Thanks!")
+
+guess = input("What's my favorite food? ")
+
+if guess == "cookies":
+    print("Yep! So amazing!")
+else:
+    print("Yuck! That’s not it!")
+
+print("Thanks for playing!")
+
+
+chapter 5
+
+
+# Error Approach
+print("~~~ The Shimmy ~~~")
+
+print("Take one step to the right and stomp.")
+print("Take one step to the left and stomp.")
+print("Shake those hips!") 
+#########################################
+# Using Function instead
+print("~~~ The Shimmy ~~~")
+
+def shimmy():
+    print("Take one step to the right and stomp.")
+    print("Take one step to the left and stomp.")
+    print("Shake those hips!")
+
+shimmy()
+shimmy()
+shimmy()
+
+def say_hello():
+    print("Hello, friends!")
+
+say_hello()
+say_hello()
+say_hello()
+
+def wash_car():
+    print("Wash with tri-color foam")
+    print("Rinse twice")
+    print("Dry with large blow dryer")
+
+    print("Wash with white foam")
+    print("Rinse once")
+    print("Air dry") 
+def wash_car(amount_paid):
+    if (amount_paid == 12):
+        print("Wash with tri-color foam")
+        print("Rinse twice")
+        print("Dry with large blow dryer")
+
+    if (amount_paid == 6):
+        print("Wash with white foam")
+        print("Rinse once")
+        print("Air dry") 
+
+
+def withdraw_money(current_balance, amount):
+    if (current_balance >= amount):
+        current_balance = current_balance - amount
+        print("The balance is", current_balance)
+
+withdraw_money(100, 80)
+##############################################
+def withdraw_money(current_balance, amount):
+    if (current_balance >= amount):
+        current_balance = current_balance - amount
+        return current_balance
+
+balance = withdraw_money(100, 80)
+
+if (balance <= 50):
+    print("We need to make a deposit")
+else:
+    print("Nothing to see here!")
+
