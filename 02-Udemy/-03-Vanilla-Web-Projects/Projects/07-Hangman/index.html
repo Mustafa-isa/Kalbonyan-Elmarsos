@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>hangman</h1>
+    <p>find  the hidden  word</p>
+    <div class="conatiner">
+
+        <svg width="300" height="300">
+
+<line x1="10" y1="20" x2="70" y2="20"/>
+<line x1="10" y1="20" x2="10" y2="200"/>
+<line x1="70" y1="20" x2="70" y2="60"/>
+<line x1="-30" y1="200" x2="30" y2="200"/>
+<circle cx="70" cy="80" r="18" class="hidden"/ >
+//الدرعيه 
+<line x1="70" y1="96" x2="70" y2="150" class="hidden"/>
+<line x1="70" y1="130" x2="50" y2="120" class="hidden"/>
+<line x1="70" y1="130" x2="90" y2="120" class="hidden"/ >
+//الاقدام يغاالي
+<line x1="70" y1="150" x2="90" y2="190" class="hidden"/>
+<line x1="70" y1="150" x2="50" y2="190" class="hidden"/>
+
+
+
+
+            
+        </svg>
+        <div class="wrong-letters">
+            <div class="wrong-letters wrongLetters">
+              
+            </div>
+        </div>
+        <div class="word">
+           
+        </div>
+        <div class="popup">
+            <div class="pop">
+                <h2 id="final-meesage"></h2>
+                <button id="play">play again</button>
+
+            </div>
+        </div>
+    </div>
+    <div class="notifavtion-conatiner">
+        <p>you have already entered this letter</p>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

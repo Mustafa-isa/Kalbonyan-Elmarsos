@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: auto;
+
+
+font-family: 'Courier New', Courier, monospace;
+
+
+background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+min-width: 100vw;
+
+
+
+}
+
+line{
+    stroke: #fff;
+    stroke-width: 3px;
+
+}
+circle{
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2px;
+
+}
+.hidden{
+    display: none;
+    
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+p{
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.wrong-letters{
+    position: absolute;
+    text-align: right;
+    top: 50px;
+    right: 30px;
+
+
+    
+
+}
+.wrong-letters span{
+
+    color: rgb(81, 8, 8);
+}
+.word{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+
+    margin-top:-30px;
+    
+}
+.word .letter{
+
+    padding: 4px;
+    border-bottom:3px solid #2134;
+}
+.popup{
+
+position: fixed;
+background: rgba(0, 0, 0, .5);
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+
+display: none;
+
+
+}
+.popup .pop{
+    background-image: linear-gradient(to right, #0b3f39, #2e410c);
+
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+
+    
+}
+.pop h2{
+margin-bottom: 10px;
+text-transform: capitalize;
+
+
+
+
+}
+.pop button{
+
+    border-radius: none;
+    padding: 10px;
+    background-image: linear-gradient(to right, #74e6d8, #85c11e);
+    outline: none;
+    border: 1px solid rgb(67, 3, 3);
+    cursor: pointer;
+
+    color: #fff;
+    transition: .1 ease;
+
+
+
+}
+.pop button:active{
+
+    transform: scale(.90);
+border: none;
+
+}
+/* notificTION */
+    .notifavtion-conatiner{
+
+        position: absolute;
+        background-color: rgba(0, 0, 0, .8);
+        padding: 10px;
+        bottom: -50px;  
+
+border-radius: 10px;
+transition: .8S ease;
+    }
+    .notifavtion-conatiner p{
+        font-size: 12px;
+
+    }
+    .notifavtion-conatiner .show{
+        bottom: 50px;
+    }
