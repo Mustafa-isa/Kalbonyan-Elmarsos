@@ -27,7 +27,7 @@
 ### Posts (S19)
 
 - [Project Code](./Projects/05-Posts/)
-- [Live Demo]()
+- [Live Demo](https://64a9553f2211467a9525113f--deft-beignet-f5f959.netlify.app/)
 
 ### Map (S29)
 
@@ -45,5 +45,5 @@
 
 [Course-Link](https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/)<br>
 
-![Certificate](https://via.placeholder.com/468x300?text=Certificate+Here)
+![Certificate](https://www.udemy.com/certificate/UC-73bfef10-c6d3-4749-bac7-a77fe237952d/)
 <br>
