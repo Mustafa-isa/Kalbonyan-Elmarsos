@@ -31,4 +31,4 @@
 
 [Course-Link](https://www.udemy.com/course/web-projects-with-vanilla-javascript/)<br>
 
-![Certificate](https://udemy-certificate.s3.amazonaws.com/pdf/UC-17841ec5-2b93-4558-a7b2-964372d3497a.pdf)
+[Certificate](https://udemy-certificate.s3.amazonaws.com/pdf/UC-17841ec5-2b93-4558-a7b2-964372d3497a.pdf)
