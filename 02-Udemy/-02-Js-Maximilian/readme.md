@@ -32,7 +32,7 @@
 ### Map (S29)
 
 - [Project Code](./Projects/06-Map/)
-- [Live Demo]()
+- [Live Demo](./Projects/06-Map/)
 
 ---
 
