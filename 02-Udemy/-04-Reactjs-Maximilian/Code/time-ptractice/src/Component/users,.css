@@ -1,0 +1,16 @@
+ul{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+
+}
+ul li{
+  color: #fff;
+  width: 100%;
+  background-color: rgb(242, 130, 130);
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  margin:10px;
+}
