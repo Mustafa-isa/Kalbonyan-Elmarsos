@@ -1,2 +1,1 @@
-# food-order
-life: https://mustafa-isa.github.io/food-order/
+# Build Responsive Real-World Websites with HTML and CSS
