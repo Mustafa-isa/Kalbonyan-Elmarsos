@@ -50,7 +50,7 @@ Kalbonyan Elmarsos is an Egyptian non-profit organization whose goal is to help 
 
 # LEARN JAVASCRIPT
 
-![0%](https://progress-bar.dev/0/?title=Done)
+![100%](https://progress-bar.dev/0/?title=Done)
 
  - [x] ` done` `52h 32m` - 01 - [ JavaScript - The Complete Guide 2023 (Beginner + Advanced) ](02-Udemy/-02-Js-Maximilian/)
  - [x] ` done` `16h 7m` - 02 - [20 Web Projects with vanilla JavaScript](02-Udemy/-03-Vanilla-Web-Projects/)
@@ -60,7 +60,7 @@ Kalbonyan Elmarsos is an Egyptian non-profit organization whose goal is to help 
 
 # LEARN JAVASCRIPT (MERN = MongoDB, Express.js, React.js, NodeJS)
 
-![0%](https://progress-bar.dev/0/?title=Done)
+![100%](https://progress-bar.dev/0/?title=Done)
 <span id="MERN"></span>
 <br />
 
@@ -87,7 +87,7 @@ Kalbonyan Elmarsos is an Egyptian non-profit organization whose goal is to help 
 
 # LEARN ABOUT CLOUD PROVIDER and SERVERLESS
 
-![0%](https://progress-bar.dev/0/?title=Done)
+![100%](https://progress-bar.dev/0/?title=Done)
 
  - [x] ` done``16h12m` - 16 - [AWS Certified Cloud Practitioner (CLF-C01)](<03-aCloudGuru/AWS%20Certified%20Cloud%20Practitioner%20(CLF-C01)/>)
  - [x] ` done` `4h27m` - 17 - [Serverless Functions with Netlify | YouTube ](04-Serverless-Functions-Netlify)
@@ -97,9 +97,9 @@ Kalbonyan Elmarsos is an Egyptian non-profit organization whose goal is to help 
 
 # Projects
 
-![0%](https://progress-bar.dev/0/?title=Done)
-|status| Project  | Technologies | Repository                                    | Demo |
-| ---  | -------- | ------------ | --------------------------------------------- | ---- |
+![100%](https://progress-bar.dev/0/?title=Done)
+|status| Project  | Technologies | Repository                                   
+| ---  | -------- | ------------ | --------------------------------------------- 
 | [x]  | Project 1| HTML CSS     | [Appie](Albonyan-projects/Appie/)             
 | [x]  | Project 2| HTML CSS JS  | [Kanban Board](Albonyan-projects/Kanban-Board/)
 | [x]  | Project 3| React js     | [Car Agency](Albonyan-projects/Car-Agency/)   
