@@ -20,5 +20,5 @@
 
 [Course-Link](https://www.udemy.com/course/nodejs-the-complete-guide/)<br>
 
-![Certificate](https://publuu.com/flip-book/183867/451029)
+[Certificate](https://publuu.com/flip-book/183867/451029)
 <br>
